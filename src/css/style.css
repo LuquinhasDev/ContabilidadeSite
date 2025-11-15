@@ -15,8 +15,13 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
   margin: auto;
+}
+
+.container img {
+  transform: translateX(15px);
+  width: 60px;
+  height: 100%;
 }
 
 header h1 a {
@@ -27,6 +32,14 @@ header h1 a {
 nav a {
   color: white;
   margin-left: 20px;
+  text-decoration: none;
+}
+
+.container .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
   text-decoration: none;
 }
 
@@ -72,8 +85,8 @@ nav a.active {
 }
 
 .servicos-preview h3 {
-    text-align: center;
-    margin-block: 20px;
+  text-align: center;
+  margin-block: 20px;
 }
 
 footer {
