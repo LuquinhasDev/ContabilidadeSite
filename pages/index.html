@@ -5,14 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Equilíbrio Contábil | Soluções em Contabilidade</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script defer src="js/script.js"></script>
+  <link rel="stylesheet" href="../src/css/style.css">
+  <script defer src="../src/js/script.js"></script>
 </head>
 
 <body>
+
+  <!-- Cabeçalho semântico -->
   <header>
-    <div class="container">
+    <!-- Usando <section> como agrupador ao invés de div -->
+    <section class="container">
       <h1><a href="index.html">Equilíbrio Contábil</a></h1>
+
+      <!-- Navegação principal -->
       <nav id="menu">
         <a href="index.html" class="active">Início</a>
         <a href="sobre.html">Sobre</a>
@@ -20,40 +25,52 @@
         <a href="blog.html">Blog</a>
         <a href="contato.html">Contato</a>
       </nav>
+
+      <!-- Botão do menu mobile -->
       <button id="menu-toggle">☰</button>
-    </div>
+    </section>
   </header>
 
+  <!-- Seção de destaque -->
   <section class="hero">
-    <div class="hero-content">
+    <!-- Conteúdo central da área hero -->
+    <article class="hero-content">
       <h2>Seu negócio em equilíbrio com a contabilidade certa</h2>
       <p>Consultoria contábil, fiscal e financeira para empresas e profissionais autônomos.</p>
       <a href="contato.html" class="btn">Fale conosco</a>
-    </div>
+    </article>
   </section>
 
+  <!-- Prévia dos serviços -->
   <section class="servicos-preview">
     <h3>Serviços Principais</h3>
-    <div class="cards">
-      <div class="card">
+
+    <!-- Lista de cartões (cards) -->
+    <section class="cards">
+
+      <article class="card">
         <h4>Abertura de Empresas</h4>
         <p>Auxiliamos em todo o processo de abertura e regularização da sua empresa.</p>
-      </div>
+      </article>
 
-      <div class="card">
+      <article class="card">
         <h4>Declaração de Imposto de Renda</h4>
         <p>Organize e envie sua declaração com segurança e agilidade.</p>
-      </div>
-      <div class="card">
+      </article>
+
+      <article class="card">
         <h4>Assessoria Contábil</h4>
         <p>Gestão contábil completa para empresas e autônomos.</p>
-      </div>
-    </div>
+      </article>
+
+    </section>
   </section>
 
+  <!-- Rodapé -->
   <footer>
     <p>© 2025 Equilíbrio Contábil — Todos os direitos reservados.</p>
   </footer>
+
 </body>
 
 </html>
