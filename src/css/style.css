@@ -8,7 +8,7 @@ body {
 header {
   background-color: #004aad;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px 20px;
 }
 
 header .container {
@@ -19,31 +19,13 @@ header .container {
 }
 
 .container img {
-  transform: translateX(15px);
   width: 60px;
   height: 100%;
-}
-
-header h1 a {
-  color: white;
-  text-decoration: none;
-}
-
-nav {
-  transform: translateX(-20px);
 }
 
 nav a {
   color: white;
   margin-left: 20px;
-  text-decoration: none;
-}
-
-.container .logo {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  color: white;
   text-decoration: none;
 }
 
@@ -117,7 +99,7 @@ nav a.active {
 }
 
 /* --- Botão --- */
-.btn {
+.btnForm {
   background: #005bbb;
   color: #fff;
   padding: 12px 18px;
@@ -129,7 +111,7 @@ nav a.active {
   transition: 0.3s;
 }
 
-.btn:hover {
+.btnForm:hover {
   background: #004096;
 }
 
@@ -191,18 +173,6 @@ footer {
     max-height: 200px;  /* valor grande para caber os links */
     opacity: 1;
     transform: translateY(0);
-  }
-
-  header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .container img {
-    transform: translateX(10px);
-    width: 50px;
-    height: 100%;
   }
 
   .cards {
