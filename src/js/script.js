@@ -19,7 +19,7 @@ window.onload = function () {
 
   // Mostra a imagem atual
   function mostrarImagem() {
-    console.log(indice, imagens.length)
+    // console.log(indice, imagens.length)
     img.src = imagens[indice];
   }
 

@@ -1,97 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ciecon | Soluções em Contabilidade</title>
-  <link rel="icon" type="image/png" href="./images/logo.png">
-  <link rel="stylesheet" href="src/css/style.css">
-  <script defer src="src/js/script.js"></script>
-  <meta name="description" content="Descrição Ciecon">
-  <meta name="keywords" content="Ciecon">
-  <meta name="author" content="Ciecon">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciecon | Soluções em Contabilidade</title>
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="src/js/script.js"></script>
+    <meta name="description" content="Descrição Ciecon">
+    <meta name="keywords" content="Ciecon">
+    <meta name="author" content="Ciecon">
+  </head>
 
-<body>
-  <!-- Cabeçalho semântico -->
-  <header>
-    <!-- Usando <section> como agrupador ao invés de div -->
-    <section class="container">
-      <a href="index.html" class="logo">
-        <img src="./images/logo.png" alt="Logo da Equilíbrio Contábil">
-        <!-- <h1>Equilíbrio Contábil</h1> -->
-      </a>
+  <body>
+    <!-- Cabeçalho semântico -->
+    <header>
+      <!-- Usando <section> como agrupador ao invés de div -->
+      <section class="container">
+        <a href="index.html" class="logo">
+          <img src="./images/logo.png" alt="Logo da Equilíbrio Contábil">
+          <!-- <h1>Equilíbrio Contábil</h1> -->
+        </a>
 
-      <!-- Navegação principal -->
-      <nav id="menu">
-        <a href="index.html" class="active">Início</a>
-        <a href="./pages/sobre.html">Sobre</a>
-        <a href="./pages/servicos.html">Serviços</a>
-        <a href="./pages/blog.html">Blog</a>
-        <a href="./pages/contato.html">Contato</a>
-      </nav>
+        <!-- Navegação principal -->
+        <nav id="menu">
+          <a href="index.html" class="active">Início</a>
+          <a href="./pages/sobre.html">Sobre</a>
+          <a href="./pages/servicos.html">Serviços</a>
+          <a href="./pages/blog.html">Blog</a>
+          <a href="./pages/contato.html">Contato</a>
+        </nav>
 
-      <!-- Botão do menu mobile -->
-      <button id="menu-toggle">☰</button>
+        <!-- Botão do menu mobile -->
+        <button id="menu-toggle">☰</button>
+      </section>
+    </header>
+
+
+    <!-- Quero carrossel aqui -->
+
+    <section class="carrossel">
+      <article class="carrossel-container">
+
+        <figure class="slide">
+          <img src="./images/carrossel/image1.png" alt="Imagem 1">
+        </figure>
+
+        <button class="prev" aria-label="Slide anterior">&#10094;</button>
+        <button class="next" aria-label="Próximo slide">&#10095;</button>
+
+      </article>
     </section>
-  </header>
 
 
-  <!-- Quero carrossel aqui -->
-
-  <section class="carrossel">
-    <div class="carrossel-container">
-      <!-- Slides -->
-      <div class="slide">
-        <img src="./images/carrossel/image1.png" alt="Imagem 1">
-      </div>
-      <!-- Botões -->
-      <button class="prev">&#10094;</button>
-      <button class="next">&#10095;</button>
-    </div>
-  </section>
-
-  <!-- Seção de destaque -->
-  <section class="hero">
-    <!-- Conteúdo central da área hero -->
-    <article class="hero-content">
-      <h2>Seu negócio em equilíbrio com a contabilidade certa</h2>
-      <p>Consultoria contábil, fiscal e financeira para empresas e profissionais autônomos.</p>
-      <a href="./pages/contato.html" class="btn">Fale conosco</a>
-    </article>
-  </section>
-
-  <!-- Prévia dos serviços -->
-  <section class="servicos-preview">
-    <h3>Serviços Principais</h3>
-
-    <!-- Lista de cartões (cards) -->
-    <section class="cards">
-
-      <article class="card">
-        <h4>Abertura de Empresas</h4>
-        <p>Auxiliamos em todo o processo de abertura e regularização da sua empresa.</p>
+    <!-- Seção de destaque -->
+    <section class="hero">
+      <!-- Conteúdo central da área hero -->
+      <article class="hero-content">
+        <h2>Seu negócio em equilíbrio com a contabilidade certa</h2>
+        <p>Consultoria contábil, fiscal e financeira para empresas e profissionais autônomos.</p>
+        <a href="./pages/contato.html" class="btn">Fale conosco</a>
       </article>
-
-      <article class="card">
-        <h4>Declaração de Imposto de Renda</h4>
-        <p>Organize e envie sua declaração com segurança e agilidade.</p>
-      </article>
-
-      <article class="card">
-        <h4>Assessoria Contábil</h4>
-        <p>Gestão contábil completa para empresas e autônomos.</p>
-      </article>
-
     </section>
-  </section>
 
-  <!-- Rodapé -->
-  <footer>
-    <p>© 2025 Equilíbrio Contábil — Todos os direitos reservados.</p>
-  </footer>
+    <!-- Prévia dos serviços -->
+    <section class="servicos-preview">
+      <h3>Serviços Principais</h3>
 
-</body>
+      <!-- Lista de cartões (cards) -->
+      <section class="cards">
+
+        <article class="card">
+          <h4>Abertura de Empresas</h4>
+          <p>Auxiliamos em todo o processo de abertura e regularização da sua empresa.</p>
+        </article>
+
+        <article class="card">
+          <h4>Declaração de Imposto de Renda</h4>
+          <p>Organize e envie sua declaração com segurança e agilidade.</p>
+        </article>
+
+        <article class="card">
+          <h4>Assessoria Contábil</h4>
+          <p>Gestão contábil completa para empresas e autônomos.</p>
+        </article>
+
+      </section>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>© 2025 Equilíbrio Contábil — Todos os direitos reservados.</p>
+    </footer>
+
+  </body>
 
 </html>
