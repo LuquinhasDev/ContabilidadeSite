@@ -29,6 +29,10 @@ header h1 a {
   text-decoration: none;
 }
 
+nav {
+  transform: translateX(-20px);
+}
+
 nav a {
   color: white;
   margin-left: 20px;
@@ -69,7 +73,7 @@ nav a.active {
   padding: 40px;
   border-left: 6px solid #1b3b97;
   background: #fff;
-  box-shadow: 0 1px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
 }
 
 
@@ -171,14 +175,38 @@ footer {
 
 /* Responsividade */
 @media (max-width: 768px) {
+
   nav {
-    display: none;
+    display: flex;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
     flex-direction: column;
     background: #004aad;
   }
 
   nav.show {
+    max-height: 200px;  /* valor grande para caber os links */
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  header .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container img {
+    transform: translateX(10px);
+    width: 50px;
+    height: 100%;
+  }
+
+  .cards {
+    margin-bottom: 200px;
   }
 
   #menu-toggle {
