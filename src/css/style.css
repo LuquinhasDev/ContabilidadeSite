@@ -64,8 +64,72 @@ nav a.active {
 }
 
 .content {
-  width: 90%;
+  max-width: 900px;
   margin: 40px auto;
+  padding: 40px;
+  border-left: 6px solid #1b3b97;
+  background: #fff;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.08);
+}
+
+
+/* --- Título --- */
+.content h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+
+.content article {
+  
+}
+
+/* --- Formulário --- */
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* --- Campos --- */
+.contato-form label {
+  font-weight: 600;
+  color: #444;
+}
+
+.contato-form input,
+.contato-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.contato-form input:focus,
+.contato-form textarea:focus {
+  outline: none;
+  border-color: #005bbb;
+  box-shadow: 0 0 4px rgba(0, 91, 187, 0.4);
+}
+
+/* --- Botão --- */
+.btn {
+  background: #005bbb;
+  color: #fff;
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 150px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #004096;
 }
 
 .cards {
