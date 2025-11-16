@@ -19,7 +19,7 @@ header .container {
 }
 
 .container img {
-  width: 60px;
+  width: 80px;
   height: 100%;
 }
 
@@ -56,6 +56,7 @@ nav a.active {
   border-left: 6px solid #1b3b97;
   background: #fff;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
+  padding-bottom: 65px;
 }
 
 
